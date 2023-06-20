@@ -71,7 +71,7 @@ footer ul li {
     display: none;
   }
   .coleccion img {
-    width: 80%;
+    width: 80% !important;
   }
 }
 .seccionBody {
