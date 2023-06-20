@@ -14,7 +14,7 @@ ul {
     background-position: center;
     text-align: center;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     div {
         background-color: #F1E9DC;
         width: 100%;
@@ -46,6 +46,21 @@ td {
 table {
     border-spacing: 60px;
 }
+
+.animado {
+        width: 100px;
+        height: 50px;
+        font-weight: bold;
+        position: relative;
+        animation: mymove 8s infinite;
+        color: #F09A99;
+        font-size: larger;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 60%;}
+  }
 @media only screen and (max-width: 797px) {
     footer {
         display: none;
